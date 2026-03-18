@@ -1,0 +1,6 @@
+langchain-openai>=0.2.0
+langchain-teddynote>=0.0.1
+openai>=1.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
