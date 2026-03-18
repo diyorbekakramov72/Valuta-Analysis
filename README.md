@@ -36,15 +36,12 @@ The system outputs a **probabilistic forecast** — not exact prices — with co
 ## 🗂️ Project Structure
 
 ```
-usd-uzs-forecasting/
+Valuta-Analysis/
 │
-├── usd_uzs_full.py          # Main script: LangChain + GPT-4 + chart generation
-├── usd_uzs_chart.py         # Standalone chart script (manual input)
-├── usd_uzs_chart_v2.py      # Chart script that reads from 'response' variable
+├── valuta-analyser.py       # Main script: LangChain + GPT-4 + chart generation
 ├── usd_uzs_forecast.png     # Sample output chart
-├── gamma_presentation_prompt.txt  # Gamma AI presentation prompt
 ├── requirements.txt         # Python dependencies
-├── .env.example             # Environment variable template
+├── .env                     # Environment variable template
 └── README.md                # This file
 ```
 
