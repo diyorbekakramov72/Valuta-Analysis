@@ -81,8 +81,8 @@ usd_uzs_forecast.png saved
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/usd-uzs-forecasting.git
-cd usd-uzs-forecasting
+git clone https://github.com/diyorbekakramov72/Valuta-Analysis.git
+cd Valuta-Analysis
 ```
 
 ### 2. Install dependencies
@@ -94,14 +94,14 @@ pip install -r requirements.txt
 ### 3. Set up environment variables
 
 ```bash
-cp .env.example .env
+cp .env .env
 # .env faylini oching va OPENAI_API_KEY ni kiriting
 ```
 
 ### 4. Run the main script
 
 ```bash
-python usd_uzs_full.py
+python valuta_analyser.py
 ```
 
 ---
